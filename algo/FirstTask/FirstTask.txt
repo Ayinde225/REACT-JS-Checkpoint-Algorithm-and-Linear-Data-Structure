@@ -1,0 +1,14 @@
+Première tâche :
+
+
+Écrivez un algorithme qui lit une phrase qui se termine par un point, caractère par caractère pour déterminer :
+
+Le nombre de mots dans la phrase (en supposant que les mots soient séparés par un seul espace).
+Le nombre de voyelles dans la phrase.
+Vous devez garder à l’esprit que :
+
+Chaque personnage sera traité séparément.
+
+Le dernier personnage est le point.
+
+Utilisez trois variables comme compteurs.

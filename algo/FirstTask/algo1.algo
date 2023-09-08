@@ -1,0 +1,33 @@
+ALGORITHM Compteur_de_lettres_et_voyelles
+VAR
+    phrase : STRING 
+    cm,mots,voyelles : INTEGER 
+    array : ARRAY_OF STRING[30];
+BEGIN
+
+    read(phrase)
+    cm:=0
+    mots:=0
+    voyelles:=0
+
+    FOR i FROM 1 TO phrase.length STEP 1  DO
+        IF (phrase[i]='.') THEN
+            cm:=phrase.length
+        ELSE
+            read("je suis une phrase et j'ai à ma fin un point.")
+        END_IF
+    END_FOR
+
+    FOR y FROM 1 TO phrase.length STEP 1  DO
+        FOR x FROM 1 TO phrase.length STEP 1  DO
+            IF (phrase[x]==array[y]) THEN
+                voyelles:= +1
+            END_IF
+        END_FOR
+    END_FOR
+
+    write(: cm "Est la longueure de la phrase" )
+    write("la phrase est composé de ": mots)
+    write("Ainsi que de " : voyelles)
+
+END

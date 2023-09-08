@@ -1,0 +1,9 @@
+Deuxième tâche :
+Description:
+
+Étant donné deux ensembles d’éléments, trouvez la somme de tous les éléments distincts de l’ensemble. En d’autres termes, trouvez la somme de tous les éléments présents dans l’un ou l’autre des ensembles donnés.
+Exemple:
+Ensemble 1 : [3, 1, 7, 9], Ensemble 2 : [2, 4, 1, 9, 3]
+Sortie : 13 (éléments distincts 4, 7, 2)
+Utilisez un tableau comme méthode.
+Initialisez sum = 0. Comparez chaque élément du premier ensemble avec le deuxième ensemble et si l'élément n'est pas présent, ajoutez cet élément à la somme. Faites ensuite l’inverse pour ajouter des éléments du deuxième ensemble.
